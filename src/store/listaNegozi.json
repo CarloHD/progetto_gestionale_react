@@ -1,0 +1,107 @@
+[
+	{
+		"nome": "Nike",
+		"descrizione": "Articoli sportivi",
+		"immagine": "https://www.picsum.photos/seed/t1/800",
+		"articoli": [
+			{
+				"nome": "Scarpa1",
+				"immagine": "",
+				"prezzo": 20,
+				"quantita": 1,
+				"descrizione": "Adipisicing do et nulla eiusmod aliquip aliquip non velit."
+			},
+			{
+				"nome": "Scarpa2",
+				"immagine": "",
+				"prezzo": 20,
+				"quantita": 1,
+				"descrizione": "Proident officia velit incididunt ea consequat fugiat culpa eiusmod eiusmod est ut reprehenderit pariatur velit."
+			},
+			{
+				"nome": "Scarpa3",
+				"immagine": "",
+				"prezzo": 20,
+				"quantita": 1,
+				"descrizione": "Adipisicing sint enim sit est nisi cillum."
+			},
+			{
+				"nome": "Scarpa4",
+				"immagine": "",
+				"prezzo": 20,
+				"quantita": 1,
+				"descrizione": "Consectetur dolore occaecat veniam aute eiusmod quis deserunt nulla aliqua magna enim velit."
+			},
+			{
+				"nome": "Scarpa5",
+				"immagine": "",
+				"prezzo": 20,
+				"quantita": 1,
+				"descrizione": "Lorem in consectetur aute officia nulla laboris Lorem dolor labore."
+			}
+		]
+	},
+	{
+		"nome": "Puma",
+		"descrizione": "Articoli sportivi",
+		"immagine": "https://www.picsum.photos/seed/t2/800",
+		"articoli": [
+			{
+				"nome": "ScarpaA",
+				"immagine": "",
+				"prezzo": 10,
+				"quantita": 1,
+				"descrizione": "Anim consequat ex sint sint veniam ea excepteur labore."
+			},
+			{
+				"nome": "ScarpaB",
+				"immagine": "",
+				"prezzo": 10,
+				"quantita": 1,
+				"descrizione": "Minim laboris ullamco exercitation ex."
+			},
+			{
+				"nome": "ScarpaC",
+				"immagine": "",
+				"prezzo": 10,
+				"quantita": 1,
+				"descrizione": "Ad eu non magna adipisicing amet exercitation cupidatat ipsum."
+			}
+		]
+	},
+	{
+		"nome": "Adidas",
+		"descrizione": "Articoli sportivi",
+		"immagine": "https://www.picsum.photos/seed/t3/800",
+		"articoli": [
+			{
+				"nome": "ScarpaW",
+				"immagine": "",
+				"prezzo": 30,
+				"quantita": 1,
+				"descrizione": "Dolore tempor esse ullamco qui consectetur fugiat aliqua ex incididunt magna esse nostrud."
+			},
+			{
+				"nome": "ScarpaX",
+				"immagine": "",
+				"prezzo": 30,
+				"quantita": 1,
+				"descrizione": "Commodo amet pariatur commodo ex ex quis enim veniam veniam dolor labore commodo irure."
+			},
+			{
+				"nome": "ScarpaY",
+				"immagine": "",
+				"prezzo": 30,
+				"quantita": 1,
+				"descrizione": "Qui excepteur velit excepteur laborum pariatur nisi."
+			},
+			{
+				"nome": "ScarpaZ",
+				"immagine": "",
+				"prezzo": 30,
+				"quantita": 1,
+				"descrizione": "Id aliqua non quis cupidatat."
+			}
+		]
+	}
+]

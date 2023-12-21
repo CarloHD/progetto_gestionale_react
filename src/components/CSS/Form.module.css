@@ -1,0 +1,23 @@
+.form {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	align-items: stretch;
+	width: 50%;
+	font-size: 1.4rem;
+	color: #ffb700;
+}
+
+.form input {
+	height: 2rem;
+	font-size: 1.4rem;
+
+	margin-bottom: 1rem;
+}
+
+.form button {
+	width: 50%;
+	height: 50px;
+	align-self: center;
+}

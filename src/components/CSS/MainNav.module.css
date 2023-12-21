@@ -1,0 +1,69 @@
+.mainNav {
+z-index: 1;
+	width: 100%;
+	height: fit-content;
+	position: fixed;
+	padding: 5px 20px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.control {
+	position: relative;
+	z-index: 2;
+}
+
+.control button,
+.control a {
+	border: unset;
+
+	width: 3.9rem;
+	aspect-ratio: 1/1;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 1.2rem;
+	color: #ffb700;
+	text-shadow: 1px 1px 2px #c2c69d;
+	cursor: pointer;
+}
+
+.control img {
+	filter: invert(81%) sepia(22%) saturate(5924%) hue-rotate(357deg)
+		brightness(99%) contrast(108%) drop-shadow(1px 1px 2px #c2c69d);
+
+	width: 2rem;
+}
+
+.login img {
+	position: absolute;
+	bottom: -0.4rem;
+	right: -0.3rem;
+}
+
+.login:hover img {
+	transform-origin: top center;
+	animation: pendolo 2s ease-in-out 0.3s infinite;
+}
+
+@keyframes pendolo {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(-20deg);
+	}
+
+	50% {
+		transform: rotate(20deg);
+	}
+	75% {
+		transform: rotate(-20deg);
+	}
+
+	100% {
+		transform: rotate(0deg);
+	}
+}

@@ -1,0 +1,32 @@
+.navbar {
+	padding-top: 10px;
+	width: 100%;
+
+	height: fit-content;
+}
+
+.navbar ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.navbar li {
+	flex-basis: 50%;
+	list-style: none;
+	padding: 10px;
+	text-align: center;
+}
+
+.navbar li a,
+.navbar li button {
+	padding: 7px 14px;
+	text-decoration: none;
+}
+
+.navbar li button {
+	cursor: pointer;
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+}

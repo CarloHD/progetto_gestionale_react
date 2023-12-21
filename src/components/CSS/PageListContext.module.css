@@ -1,0 +1,51 @@
+.lista {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	gap: 5rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.lista li a {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.cardImmagine {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cardPlaceholder {
+	border: 2px dashed #ffb700;
+	background-color: #ffb70081 !important;
+}
+
+.cardPlaceholder div {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cardAddIcon {
+	background-image: url("../../assets/add_FILL0_wght400_GRAD0_opsz48.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+
+	filter: invert(81%) sepia(22%) saturate(5924%) hue-rotate(357deg)
+		brightness(99%) contrast(108%);
+}
